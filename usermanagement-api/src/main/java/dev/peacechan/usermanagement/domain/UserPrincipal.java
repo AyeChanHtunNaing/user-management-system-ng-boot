@@ -9,7 +9,6 @@ import java.util.Collection;
 import java.util.stream.Collectors;
 
 import lombok.Data;
-import static java.util.Arrays.stream;
 
 @Data
 public class UserPrincipal implements UserDetails {
