@@ -13,6 +13,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
+import org.springframework.stereotype.Component;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -21,7 +22,7 @@ import static com.auth0.jwt.algorithms.Algorithm.HMAC512;
 import static dev.peacechan.usermanagement.constant.SecurityConstant.*;
 import static java.util.Arrays.stream;
 
-
+@Component
 public class JwtTokenProvider {
     @Value("${jwt.secret}")
     private String secret;
