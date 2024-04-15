@@ -1,1 +1,1 @@
-User Management System as a Thingyan Sevelopment Challenge
+User Management System as a Thingyan Development Challenge
