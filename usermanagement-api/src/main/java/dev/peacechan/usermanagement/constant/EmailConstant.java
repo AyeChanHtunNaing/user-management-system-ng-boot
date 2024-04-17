@@ -3,7 +3,7 @@ package dev.peacechan.usermanagement.constant;
 public class EmailConstant {
     public static final String SIMPLE_MAIL_TRANSFER_PROTOCOL = "smtps";
     public static final String USERNAME = "chan2001.dev@gmail.com";
-    public static final String PASSWORD = "achawlay@123";
+    public static final String PASSWORD = "liqdznyylktdsshb";
     public static final String FROM_EMAIL = "contact@peacechan.dev";
     public static final String CC_EMAIL = "";
     public static final String EMAIL_SUBJECT = "Peace Chan Dev - New Password";
