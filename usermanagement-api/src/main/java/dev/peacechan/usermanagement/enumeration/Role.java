@@ -1,5 +1,7 @@
 package dev.peacechan.usermanagement.enumeration;
 
+import java.util.List;
+
 import static dev.peacechan.usermanagement.constant.Authority.*;
 
 public enum Role {
@@ -9,13 +11,13 @@ public enum Role {
     ROLE_ADMIN(ADMIN_AUTHORITIES),
     ROLE_SUPER_ADMIN(SUPER_ADMIN_AUTHORITIES);
 
-    private String[] authorities;
+    private List<String>  authorities;
 
     Role(String... authorities) {
-        this.authorities = authorities;
+        this.authorities = List.of(authorities);
     }
 
-    public String[] getAuthorities() {
+    public List<String> getAuthorities() {
         return authorities;
     }
 }
